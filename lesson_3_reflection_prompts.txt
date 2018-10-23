@@ -38,6 +38,7 @@ git checkout your_branchname
 (add your files / make changes)
 git add .
 git commit
+git rebase master
 git push --set-upstream origin your_branchname
 git push -f origin
-git rebase master
+
